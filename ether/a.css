@@ -1,0 +1,153 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    padding: 0;
+    /* width: 100vw; */
+    height: 235px;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    
+    width: 100vw;
+    height: 160px;
+    background-color: rgb(14, 14, 14);
+    padding: 0;
+}
+.navbar_content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 90%;
+    padding: 0;
+    border-radius: 10px;
+    gap: 100px;
+
+}
+.navbar_content_logo
+{
+    
+    width: 10vw;
+    height: 100%;
+}
+.navbar_content_logo img
+{
+    width: 100%;
+    height: 100%;
+}
+.navbar_content_searchbar
+{
+    
+    width: 30vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchbar_content
+{
+    cursor: pointer;
+    border-radius: 10px;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchbar_content_font
+{
+    display: flex;
+    align-items: center;
+    color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 80%;
+    width: 80%;
+    height: 50px;
+    padding-left: 10px ;
+    border: 1px solid white;
+    
+}
+.searchbar_content_font:hover
+{
+    background-color: black;
+}
+.searchbar_content_icon
+{
+    border: 1px solid white;
+    
+    width: 20%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.searchbar_content_icon img
+{
+    width: 100%;
+    height: 100%;
+}
+.searchbar_content_icon:hover
+{
+    background-color: black;
+}
+.searchbar_content_righticon
+{
+  
+    width: 10vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.details
+{
+    border: 5px solid goldenrod;
+}
+.menu
+{
+    background-color: black;
+   
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.menu_dropdown
+{
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    
+}
+.menu_dropdown::after
+{
+    content:"˅";
+}
+ul
+{
+    list-style: none;
+
+}
+li
+{
+    list-style: none;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    
+}
+.bar
+{
+    border: 2px solid goldenrod;
+}
