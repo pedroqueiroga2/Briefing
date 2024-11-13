@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+html{
+    font-size: 72.5%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    /* background-image: url(https://www.parededepapel.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/p/a/papel-de-parede-adesivo-de-diamantes-abstratos.jpg); */
+    /* background-image: url(https://thumbs.dreamstime.com/b/diamante-do-brilho-no-fundo-branco-para-o-projeto-152365508.jpg); */
+    background-size: 150px;
+    background-color: #feb9c76e;
+    /* color: white; */
+}
+.light_wapprer, .black_wapprer{
+    /* background-color: aliceblue; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_content{
+    max-width: 90vw;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 4rem;
+}
+
+
+.main_content_hero_img{
+    width: 100%;
+}
+.main_content_hero_img_content{
+    width: 100%;
+}
+.main_content_title{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.main_content_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.main_content_cards_card_link{
+    text-decoration: none;
+    color: black;
+}
+
+.main_content_cards_card_img{
+    width: 300px;
+    outline: 2px solid rgba(0, 0, 0, 0.199);
+    padding: 2.5rem;
+}
+.main_content_cards_card_img img{
+    width: 100%;
+    height: 100%;
+    transform: scale(1.2);
+}
+.main_content_cards_card_title{
+    margin-top: .5em;
+    color: gray;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.main_content_cards_card_link:hover .main_content_cards_card_img img{
+    transition: transform .5s;
+    transform: scale(1.3);
+}
+.main_content_cards_card_link:hover .main_content_cards_card_title{
+    color: black;
+}
+.main_content_title_desricao{
+    text-align: center;
+    font-size: 1.4rem;
+    width: 100ch;
+    margin: auto;
+    margin-top: .2rem;
+    margin-bottom: 1rem;
+    line-height: 2;
+}
+.main_content_colecao_title{
+    margin-bottom: 0;
+    margin-top: 7rem;
+}
+.main_content_colecao_cards_card_img{
+    position: relative;
+    overflow: hidden;
+}
+.main_content_colecao_cards_card_img::after{
+    content: "";
+    background-color: rgba(128, 128, 128, 0.541);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transform: translateY(0);
+}
+.main_content_cards_card_link:hover .main_content_colecao_cards_card_img::after{
+    transition: transform .5s;
+    transform: translateY(-100%);
+}
+.black_wapprer{
+    background-color: black;
+}
+.footer_wapprer{
+    margin-top: 4em;
+    /* n             */
+}
+.p_footer{
+    text-align: center;
+    padding: 1em;
+    /* background: -webkit-linear-gradient(left, #8f6B29, #FDE08D, #DF9F28);
+	background: linear-gradient(left, #8f6B29, #FDE08D, #DF9F28); */
+    background: -webkit-linear-gradient(left, #cc517e, #feb9c7, #cc517e);
+	background: linear-gradient(left, #cc517e, #feb9c7, #cc517e);
+    width: 100%;
+}
+.footer_title{
+    color: rgb(2, 2, 2);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.footer_content{
+    color: rgb(20, 20, 20);
+}
+.hero_wapprer{
+    background-color: initial;
+}
+
+.content_main
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+.left
+{
+    border: 1px solid black;
+    height: 90vh;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.itens
+{
+    border: 1px solid black;
+    
+    height: 90vh;
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.itens_cards
+{
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 400px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: calc(25%-10px);
+    gap: 5px;
+}
+.itens_cards_imagens
+{
+    border: black 1px solid;
+    border-radius: 5px;
+    height: 200px;
+    width: 320px;
+    overflow: hidden;
+}
+
+.itens_cards_imagens img
+{
+    width: 100%;
+    height: 100%;
+    
+}
+.itens_cards_imagens img:hover
+{
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+.itens_cards_fonts_button
+{
+    display: none;
+    
+}
+.itens_cards_fonts_button:hover
+{
+    background-color: rgba(0, 0, 0, 0.767);
+    width: 110px;
+    height: 45px;
+}
+.itens_cards_fonts_slot:hover .itens_cards_fonts_button
+{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: black;
+    border-radius: 1px ;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Viaoda Libre", serif;
+}
+.itens_cards_fonts
+{
+    
+    height: 200px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: "Viaoda Libre", serif;
+}
+.itens_cards_fonts_title
+{
+    
+    
+    height: 90px;
+    width: 100%;
+    font-size: 24px;
+    font-style: italic;
+    
+}
+.itens_cards_fonts_slot
+{
+    
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-direction:column ;
+    text-decoration: none;
+    
+}
+.itens_cards_fonts_slot:hover .itens_cards_fonts_price_top, .itens_cards_fonts_slot:hover .itens_cards_fonts_price_bottom
+{
+ display: none;
+}
+.itens_cards_fonts_price_top::before
+{
+    content: 'R$';
+}
+.itens_cards_fonts_price_top
+{
+    font-size: 22px;
+    
+}
+.itens_cards_fonts_slot a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+}
+
+.hero_wapprer{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.main_content_login{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form_def{
+    background-color: aliceblue;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 40%;
+}
+.modal-backdrop{
+    z-index: 0;
+}
+.btn_custom{
+    background-color: transparent;
+    border-radius: 50%;
+    color: black;
+    border-color: black;
+}
+.btn_custom:hover{
+    background-color: black;
+}
+.left_content
+{
+    border: 1px solid black;
+    width: 95%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left_content_drop
+{
+    position: relative;
+    display: inline-block;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Esconde o checkbox, mas ele ainda é funcional */
+.dropdown-toggle {
+    display: none;
+}
+
+/* Estilo do label que funciona como botão */
+.dropdown-label {
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+.dropdown-label:hover {
+    
+}
+
+/* Estilos para o conteúdo dropdown */
+.dropdown-content {
+    display: none; /* Inicialmente oculto */
+    position: absolute;
+    z-index: 1;
+    
+    
+}
+
+.a {
+    display: none;
+   
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+}
+.a:hover {
+    background-color: rgba(0, 0, 0, 0.418);
+}
+
+
+.dropdown-content a {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-label
+{
+    font-size: 20px;
+
+}
+
+/* Quando o checkbox está marcado, mostra a lista */
+.dropdown-toggle:checked + .dropdown-label + .dropdown-content {
+    display: block;
+}
