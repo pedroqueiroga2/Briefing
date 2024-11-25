@@ -1,0 +1,232 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    
+}
+.header-space
+{
+    
+    width: 100vw;
+    height: 100px;
+    padding: 5px;
+    background-color: rgba(245, 245, 220, 0.39);
+}
+.header-space-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+
+    
+    
+    height: 100%;
+    width: 100%;
+}
+.header-space-content-logo
+{
+    width: 150px;
+    height: 100%;
+    
+}
+.header-space-content-logo img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header-space-content-fonts
+{
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.header-space-content-fonts-subtitle
+{
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header-space-content-fonts-subtitle-text
+{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+   
+    height: 50px;
+    
+
+    text-decoration: none;
+    color: black;
+
+    border-bottom: 2px solid transparent;
+    transition: 0.3s linear;
+}
+.header-space-content-fonts-subtitle-text:hover
+{
+    
+    border-bottom: 2px solid black;
+    
+}
+.destaque
+{
+    
+    border-bottom: 2px solid black;
+    
+}
+.header-space-content-fonts-login
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    width: 20%;
+    height: 100%;
+    
+}
+.header-space-content-fonts-login a
+{
+    text-decoration: none;
+    
+}
+.header-space-content-fonts-login-in
+{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+        height: 50px;
+    
+    color:black;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease;
+}
+.header-space-content-fonts-login-in:hover
+{
+ border-bottom: 2px solid black;
+        height: 50px;
+    
+    color:black;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap');
+
+.header-space-content-fonts-login-out
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 80px;
+    height: 30px;
+    border: 1px solid transparent;
+    border-radius: 20px ;
+
+    font-family: "Gayathri", sans-serif;
+    color: white;
+    background-color: black;
+    transition: 0.3s ease;
+}
+.header-space-content-fonts-login-out:hover
+{
+    background-color: rgba(0, 0, 0, 0.788);
+}
+
+.header-search
+{
+    width: 100vw;
+    height: 500px;
+    border: 1px solid black;
+
+    background-image: url(Imagens/background-header.webp);
+    background-repeat: no-repeat;
+    background-size:100% auto ;
+    background-position: center;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header-search-title
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+    font-size: 25px;
+    font-family: "Gayathri", sans-serif;
+    
+    width: 500px;
+    height: 100px;
+    
+}
+.header-search-bar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+    width: 500px;
+    height: 100px;
+}
+.bar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 450px;
+    height: 50px;
+    border-radius: 20px;
+}
+.bar-font
+{
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+
+    display: flex;
+    align-items: center ;
+
+    color: rgba(240, 248, 255, 0.774);
+    font-size: 24px;
+}
+.bar-lupa
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid transparent;
+    width: 15%;
+    height: 90%;
+    border-radius: 20px;
+    background-color: black;
+    transition: 0.5s ease;
+}
+.bar-lupa:hover
+{
+    background-color: rgba(0, 0, 0, 0.822);
+}
