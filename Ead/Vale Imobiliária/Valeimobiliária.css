@@ -1,71 +1,69 @@
-body
-{
+body {
     margin: 0;
     padding: 0;
-    
+
 }
-.header-space
-{
-    
+
+.header-space {
+
     width: 100vw;
     height: 100px;
     padding: 5px;
     background-color: rgba(245, 245, 220, 0.39);
 }
-.header-space-content
-{
+
+.header-space-content {
     display: flex;
     align-items: center;
     justify-content: center;
 
     gap: 10px;
 
-    
-    
+
+
     height: 100%;
     width: 100%;
 }
-.header-space-content-logo
-{
+
+.header-space-content-logo {
     width: 150px;
     height: 100%;
-    
+
 }
-.header-space-content-logo img
-{
+
+.header-space-content-logo img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.header-space-content-fonts
-{
+
+.header-space-content-fonts {
     width: 50%;
     height: 100%;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
 }
-.header-space-content-fonts-subtitle
-{
+
+.header-space-content-fonts-subtitle {
     width: 50%;
     height: 100%;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
 
-.header-space-content-fonts-subtitle-text
-{
+.header-space-content-fonts-subtitle-text {
     display: flex;
     align-items: center;
-    justify-content: center ;
-   
+    justify-content: center;
+
     height: 50px;
-    
+
 
     text-decoration: none;
     color: black;
@@ -73,20 +71,20 @@ body
     border-bottom: 2px solid transparent;
     transition: 0.3s linear;
 }
-.header-space-content-fonts-subtitle-text:hover
-{
-    
+
+.header-space-content-fonts-subtitle-text:hover {
+
     border-bottom: 2px solid black;
-    
+
 }
-.destaque
-{
-    
+
+.destaque {
+
     border-bottom: 2px solid black;
-    
+
 }
-.header-space-content-fonts-login
-{
+
+.header-space-content-fonts-login {
     list-style: none;
     display: flex;
     align-items: center;
@@ -95,39 +93,38 @@ body
 
     width: 20%;
     height: 100%;
-    
+
 }
-.header-space-content-fonts-login a
-{
+
+.header-space-content-fonts-login a {
     text-decoration: none;
-    
+
 }
-.header-space-content-fonts-login-in
-{
-   
+
+.header-space-content-fonts-login-in {
+
     display: flex;
     align-items: center;
     justify-content: center;
 
-        height: 50px;
-    
-    color:black;
+    height: 50px;
+
+    color: black;
     border-bottom: 2px solid transparent;
     transition: 0.3s ease;
 }
-.header-space-content-fonts-login-in:hover
-{
- border-bottom: 2px solid black;
-        height: 50px;
-    
-    color:black;
+
+.header-space-content-fonts-login-in:hover {
+    border-bottom: 2px solid black;
+    height: 50px;
+
+    color: black;
 
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap');
 
-.header-space-content-fonts-login-out
-{
+.header-space-content-fonts-login-out {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,86 +132,85 @@ body
     width: 80px;
     height: 30px;
     border: 1px solid transparent;
-    border-radius: 20px ;
+    border-radius: 20px;
 
     font-family: "Gayathri", sans-serif;
     color: white;
     background-color: black;
     transition: 0.3s ease;
 }
-.header-space-content-fonts-login-out:hover
-{
+
+.header-space-content-fonts-login-out:hover {
     background-color: rgba(0, 0, 0, 0.788);
 }
 
-.header-search
-{
+.header-search {
     width: 100vw;
     height: 500px;
     border: 1px solid black;
 
     background-image: url(Imagens/background-header.webp);
     background-repeat: no-repeat;
-    background-size:100% auto ;
+    background-size: 100% auto;
     background-position: center;
-    
+
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
-.header-search-title
-{
-    
+
+.header-search-title {
+
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     color: white;
     font-size: 25px;
     font-family: "Gayathri", sans-serif;
-    
+
     width: 500px;
     height: 100px;
-    
+
 }
-.header-search-bar
-{
+
+.header-search-bar {
     display: flex;
     align-items: center;
     justify-content: center;
 
-   
+
     width: 500px;
     height: 100px;
 }
-.bar
-{
+
+.bar {
     display: flex;
     align-items: center;
-    justify-content: center ;
+    justify-content: center;
     gap: 15px;
     border: 2px solid rgb(255, 255, 255);
     width: 450px;
     height: 50px;
     border-radius: 20px;
 }
-.bar-font
-{
+
+.bar-font {
     width: 80%;
     height: 100%;
     padding: 10px;
 
     display: flex;
-    align-items: center ;
+    align-items: center;
 
     color: rgba(240, 248, 255, 0.774);
     font-size: 24px;
 }
-.bar-lupa
-{
+
+.bar-lupa {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -226,7 +222,222 @@ body
     background-color: black;
     transition: 0.5s ease;
 }
-.bar-lupa:hover
-{
+
+.bar-lupa:hover {
     background-color: rgba(0, 0, 0, 0.822);
+}
+
+
+.banner {
+    width: 100vw;
+    height: 200px;
+
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-contain {
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #efefef;
+
+    width: 1000px;
+    height: 100px;
+
+    display: flex;
+    overflow: hidden;
+}
+
+.banner-contain-img {
+    width: 80%;
+    height: 100%;
+}
+
+.banner-contain-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-contain-button {
+    width: 20%;
+    height: 100%;
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-contain-button-b {
+
+    border-radius: 20px;
+
+    background-color: black;
+
+    width: 100%;
+    height: 40%;
+
+    font-family: "Gayathri", sans-serif;
+    color: white;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-contain-button-b a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner-contain-button-b:hover {
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+
+.main {
+    width: 100vw;
+    height: 500px;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.main-content {
+    
+    width: 90vw;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-content-title {
+    font-family: "Gayathri", sans-serif;
+    font-size: 30px;
+
+    width: 100%;
+    height: 40px;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content-cardspace {
+    
+    width: 100%;
+    height: 450px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+}
+
+.main-content-cardspace-card {
+    
+    border-radius: 10px;
+    overflow: hidden;
+
+    width: 350px;
+    height: 400px;
+
+
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+}
+
+
+
+
+.main-content-cardspace-card img
+{
+    filter: brightness(0.5);
+    transition: 0.3s ease;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.main-content-cardspace-card:hover img {
+
+    filter: brightness(0.8);
+
+
+}
+.main-content-cardspace-card-font a {
+    text-decoration: none;
+    z-index: 2;
+    font-size: 30px;
+    color: white;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+.main-content-information
+{
+    width: 100vw;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+}
+.main-content-information-img
+{
+    width: 50vw;
+    height: 100%;
+}
+.main-content-information-img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main-content-information-font
+{
+    width: 50vw;
+    height: 100%;
+    border: 1px solid black;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main-content-information-font-title
+{
+    width: 100%;
+    height: 50px;
+    font-family: "Chakra Petch", sans-serif;
+    
+    font-size: 30px;
+}
+.main-content-information-font-subtitle
+{
+    width: 100%;
+    height: 50px;
+    font-family: "Audiowide", sans-serif;
+    font-size: 18px;
 }
