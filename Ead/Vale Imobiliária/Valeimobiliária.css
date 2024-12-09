@@ -504,3 +504,18 @@ body {
     height: 90;
 
 }  
+.footer-content-information
+{
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    height: 100%;
+
+    border: 1px solid salmon;
+}
+.footer-content-information-first
+{
+    display: flex;
+    flex-direction: column;
+    
+}
