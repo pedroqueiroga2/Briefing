@@ -507,15 +507,29 @@ body {
 .footer-content-information
 {
     display: flex;
-    align-items: center;
     width: 50vw;
     height: 100%;
 
-    border: 1px solid salmon;
+    
 }
 .footer-content-information-first
 {
     display: flex;
     flex-direction: column;
+
+    width: 200px;
+    height: 100;
     
+}
+.footer-content-information-first-imagem
+{
+    width: 100%;
+    height: 150px;
+    
+}
+.footer-content-information-first-imagem img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
