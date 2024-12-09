@@ -482,5 +482,24 @@ body {
     font-family: "Chakra Petch", sans-serif;
     color: rgba(255, 255, 255, 0.699);
     
-    border: 1px solid salmon;
+   
+}  
+.footer-content-socialmidia-icon
+{
+    width: 100;
+    height: 30%;
+    padding: 5px;
+
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    
+   
+}  
+.footer-content-socialmidia-icon img
+{
+    width: 100;
+    height: 90;
+  
+ 
 }  
